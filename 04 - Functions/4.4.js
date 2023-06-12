@@ -1,6 +1,6 @@
 
 const readlineSync = require("readline-sync");
-
+// Calculate the average of an array of numbers
 function average(arr){
     if(arr.length === 0)
         return 0;
@@ -8,18 +8,21 @@ function average(arr){
     return sum / arr.length;
 }
 
+// Calculate the minimum of an array of numbers
 function min(arr) {
     if (arr.length === 0)
         return undifined
     return Math.min(...arr);
 }
  
+// Calculate the maximum of an array of numbers
   function max(arr){
     if (arr.length === 0)
         return undefined;
     return Math.max(...arr);
 }
 
+//Generates an array of n random numbers between 1 and 10 (inclusive)
 function multiRand(n) {
 
     let result = [];
