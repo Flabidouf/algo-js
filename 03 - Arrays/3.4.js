@@ -1,7 +1,4 @@
 
-let arr = [1, 2, 3, 4 ,5];
+let arr = [43, 2, 9, 4 ,3];
 
-
-let lastElement = arr[arr.length - 1];
-
-console.log(lastElement)
+console.log(Math.min(...arr),Math.max(...arr))
