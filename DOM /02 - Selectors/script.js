@@ -35,3 +35,4 @@ for (let element of para) {
 function randomColor() {
     return '#'+Math.floor(Math.random()*16777215).toString(16).padStart(6,0);
 }
+// .padStart gives a min size and tells which character I want to add to fill the gap.
