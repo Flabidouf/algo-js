@@ -4,10 +4,10 @@ console.log(document.title)
 document.title = "Modifying the DOM"
 
 let body = document.body;
-for (let val of body.children) {
-    console.log(val);
+for (let element of body.children) {
+    console.log(element);
 }
-
+    
 document.body.style.backgroundColor = "rgb(" + randomNum(0, 255) + ", " + randomNum(0, 255) + ", " + randomNum(0, 255) + ")"
 
 function randomNum(min, max) {
